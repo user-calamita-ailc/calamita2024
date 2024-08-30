@@ -64,10 +64,13 @@ Follow [this link](https://docs.google.com/spreadsheets/d/1Z_RMMMTkuESjUdOxMEDVb
 ### FAQ
 
 **Do I need to run models or provide running any code and/or bash scripts?**
+
 No, you don’t. We will develop a codebase to run the evaluation on your data and run it ourselves.
 
 **Should my prompt be in Italian, English, or any other specific language?**
+
 Any language is okay. We consider prompt and prompt language design choices and leave them up to the task proposers.   
 
 **Should I provide decoding details?**
+
 No, you don’t. We will standardize decoding parameters.
