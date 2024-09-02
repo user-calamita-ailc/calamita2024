@@ -1,3 +1,20 @@
+# CALAMITA: Challenge the Abilities of LAnguage Models in ITAlian
+
+[![](https://img.shields.io/badge/Link-Website-blue)](https://clic2024.ilc.cnr.it/calamita/)
+[![](https://img.shields.io/badge/Slack-Workspace-orange)]([https://clic2024.ilc.cnr.it/calamita/](https://join.slack.com/t/calamitaworkspace/shared_invite/zt-2ocxq4h3p-h~8aoVqmkWg7ygkTtonQ4Q))
+
+
+**⏰ Timeline**
+- ~~17th May 2024: pre-proposal submission~~
+- ~~27th May 2024: notification of pre-proposal acceptance~~
+- ~~End of May 2024: distribution of challenge paper template and further instructions~~
+- **(Upcoming)** 16th September 2024: data and challenge paper submission
+- 14th October 2024: benchmark ready with reports for each challenge
+- October-November 2024: running selected models on benchmark with analyses (the CALAMITA team will do this)
+- 4th-6th December 2024: CLIC-it conference in Pisa. Co-located half-day CALAMITA workshop scheduled for December 6th.
+
+
+
 ## Submission Guidelines
 
 This document introduces the main technical details of how we intend to run the evaluation on CALAMITA tasks. 
