@@ -34,7 +34,7 @@ Some general notes:
 - Set memorable and talkative column names, which will be easier to use to compile the prompt.
 
 > [!IMPORTANT]
-> Several options exist if you cannot or prefer not to store the data on Huggingface’s servers. You can still create a dataset on Huggingface that, when we prompt it, retrieves the data from an external server (see [ITALIC](https://huggingface.co/datasets/RiTA-nlp/ITALIC) for an example). We would appreciate this solution. Otherwise, you can send a link to the data we will download and use for the evaluation. While possible, we do not encourage going for this last option, as it introduces overheads, is more error-prone, and breaks standardization.
+> Several options exist if you cannot or prefer not to store the data on Huggingface’s servers. You can still create a dataset on Huggingface that, when we prompt it, retrieves the data from an external server (see [ITALIC](https://huggingface.co/datasets/RiTA-nlp/ITALIC) for an example). We would appreciate this solution. Otherwise, **if your data cannot be shared publicly, please submit it as a zip file when submitting the report on Softconf**.
 
 #### 2) Prompting details
 
