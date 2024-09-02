@@ -13,19 +13,18 @@
 - October-November 2024: running selected models on benchmark with analyses (the CALAMITA team will do this)
 - 4th-6th December 2024: CLIC-it conference in Pisa. Co-located half-day CALAMITA workshop scheduled for December 6th.
 
-
-
 ## Submission Guidelines
 
-This document introduces the main technical details of how we intend to run the evaluation on CALAMITA tasks. 
+This section contains the main operational details of how we intend to run the evaluation on CALAMITA tasks.
 It also lists each team's requirements to complete its submission to the shared task. 
-We tried to draft this document as comprehensively as possible, but if anything needs clarification, please [join our Slack workspace](https://join.slack.com/t/calamitaworkspace/shared_invite/zt-2ocxq4h3p-h~8aoVqmkWg7ygkTtonQ4Q) for help.
-
-**TLDR**: we will ask you
-1. a HuggingFace Dataset with your data and
-2. a GitHub Gist compiled with some information to run models against your task.
+We tried to draft the requirements as comprehensively as possible, but if anything needs clarification, please [join our Slack workspace](https://join.slack.com/t/calamitaworkspace/shared_invite/zt-2ocxq4h3p-h~8aoVqmkWg7ygkTtonQ4Q) for help.
 
 > [!TIP]
+> We will ask you:
+> 1. a [HuggingFace Dataset](https://huggingface.co/datasets) with your data or, alternatively, details on how to retrieve it.
+> 2. a [GitHub Gist](https://gist.github.com/) compiled with some information to run models against your task.
+> 
+> Both will need to be provided at [this link](https://docs.google.com/spreadsheets/d/1Z_RMMMTkuESjUdOxMEDVbGr2A9xHzZva-1EhTAaIoeA/edit?gid=0#gid=0).
 > If you have your data ready and a clear evaluation in mind, preparing these requirements will take around an hour.
 
 #### How we intend to run CALAMITA
@@ -36,7 +35,7 @@ We will follow standard evaluation practices to promote standardization and fost
 
 Moreover, for categorization and analysis purposes, we will fit every task in a custom taxonomy and assign each submitted task one of the labels: 1) Natural Language Understanding, 2) Commonsense and Factual Knowledge, or 3) Bias, Fairness, and Safety.
 
-### List of requirements
+### 📄 List of requirements
 To comply with our evaluation standards, each team must provide 1) data in a standardized format, 2) prompting details, and 3) details about their evaluation metric(s).    
 
 #### 1) Data Format
