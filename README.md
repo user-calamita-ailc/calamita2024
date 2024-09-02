@@ -75,7 +75,7 @@ Finally, use the same Gist to define the evaluation metrics we should use for yo
   - We will use the first metric of the list as the main task metric (e.g., if we need to compute an aggregate across CALAMITA tasks). 
 
 ### How to submit your HF dataset and Gist
-Follow [this link](https://docs.google.com/spreadsheets/d/1Z_RMMMTkuESjUdOxMEDVbGr2A9xHzZva-1EhTAaIoeA/edit?gid=0#gid=0) (the first time, you will have to request access to it) and add a row for each task you submit. A task is considered the combination of a dataset and a gist. Thus, **you can submit multiple tasks per dataset, each with a different gist**. 
+Follow [this link](https://docs.google.com/spreadsheets/d/1Z_RMMMTkuESjUdOxMEDVbGr2A9xHzZva-1EhTAaIoeA/edit?gid=0#gid=0) (the first time, you will have to request access to it) and add a row for each task you submit. A task is considered the combination of a dataset and a gist. Thus, **you can submit multiple tasks per dataset, each with a different gist**. If you will share your data privately via Softconf, please specify "Softconf" in the respective column.
 
 ### FAQ
 
