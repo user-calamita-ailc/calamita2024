@@ -21,7 +21,7 @@ We tried to draft the requirements as comprehensively as possible, but if anythi
 
 > [!TIP]
 > We will ask you:
-> 1. a [HuggingFace Dataset](https://huggingface.co/datasets) with your data or, alternatively, details on how to retrieve it.
+> 1. a [Hugging Face Dataset](https://huggingface.co/datasets) with your data or, alternatively, details on how to retrieve it.
 > 2. a [GitHub Gist](https://gist.github.com/) compiled with some information to run models against your task.
 > 
 > Both will need to be provided at [this link](https://docs.google.com/spreadsheets/d/1Z_RMMMTkuESjUdOxMEDVbGr2A9xHzZva-1EhTAaIoeA/edit?gid=0#gid=0).
@@ -39,7 +39,7 @@ Moreover, for categorization and analysis purposes, we will fit every task in a 
 To comply with our evaluation standards, each team must provide 1) data in a standardized format, 2) prompting details, and 3) details about their evaluation metric(s).    
 
 #### 1) Data Format
-We request that each team make data accessible through the Huggingface Hub. 
+We request that each team make data accessible through the Hugging Face Hub. 
 The platform's extreme flexibility regarding column types, licensing, and no maximum size restrictions make it convenient.
 Creating and publishing a dataset on HF is a one-off 30-minute procedure. For more details, please refer to [the official guide](https://huggingface.co/docs/hub/datasets-adding).
 If you need support, do not hesitate to reach out.
@@ -50,7 +50,7 @@ Some general notes:
 - Set memorable and talkative column names, which will be easier to use to compile the prompt.
 
 > [!IMPORTANT]
-> Several options exist if you cannot or prefer not to store the data on Huggingface’s servers. You can still create a dataset on Huggingface that, when we prompt it, retrieves the data from an external server (see [ITALIC](https://huggingface.co/datasets/RiTA-nlp/ITALIC) for an example). We would appreciate this solution. Otherwise, **if your data cannot be shared publicly, please submit it as a zip file when submitting the report on Softconf**.
+> If you cannot or prefer not to store your data on Hugging Face’s servers, several options exist. If you can release the data publicly but cannot do it on HF's servers, you can still create a dataset that, when prompted, retrieves the data from an external server (see [ITALIC](https://huggingface.co/datasets/RiTA-nlp/ITALIC) for an example). **If your data cannot be shared publicly, please submit it as a zip file when submitting the report on Softconf**.
 
 #### 2) Prompting details
 
