@@ -8,9 +8,9 @@
 - ~~17th May 2024: pre-proposal submission~~
 - ~~27th May 2024: notification of pre-proposal acceptance~~
 - ~~End of May 2024: distribution of challenge paper template and further instructions~~
-- **(Upcoming)** 16th September 2024: data and challenge paper submission
+- **(Upcoming) 16th September 2024: data and challenge paper submission**
 - 14th October 2024: benchmark ready with reports for each challenge
-- October-November 2024: running selected models on benchmark with analyses (the CALAMITA team will do this)
+- October-November 2024: running selected models on the benchmark with analyses (the CALAMITA team will do this)
 - 4th-6th December 2024: CLIC-it conference in Pisa. Co-located half-day CALAMITA workshop scheduled for December 6th.
 
 ## Submission Guidelines
@@ -69,8 +69,9 @@ We request each team to share a [Github Gist](​​https://gist.github.com/) wi
 #### 3) Evaluation details
 Finally, use the same Gist to define the evaluation metrics we should use for your task.
 
+- Any **post-processing function** to be applied to the output.
 - The **evaluation metric(s)**. You can specify one or more metrics. If your metric is standard, just use its name (e.g., “accuracy,” “f1_macro”, etc.); otherwise, specify the name of the function and define it in the gist.
-  - When defining custom evaluation functions, feel free to use any definition (function name, number, and name of parameters) – we will take care of making it work in our codebase. If custom functions have dependencies, we will do our best to figure them out and reach out to the team if we fail. 
+  - When defining custom evaluation functions, feel free to use any definition (function name, number, and name of parameters). We will make it work in our codebase. If custom functions have dependencies, we will do our best to figure them out and reach out to the team if we fail. 
   - See [this “open-ended” gist](https://gist.github.com/g8a9/f5e82d38ce12831323b20dc79b0452c9) using xCOMET to evaluate translation outputs. 
   - We will use the first metric of the list as the main task metric (e.g., if we need to compute an aggregate across CALAMITA tasks). 
 
